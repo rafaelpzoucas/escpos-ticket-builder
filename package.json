@@ -1,0 +1,59 @@
+{
+  "name": "escpos-ticket-builder",
+  "version": "1.0.0",
+  "description": "A flexible and type-safe ESC/POS thermal printer receipt builder with support for multiple printer profiles and quirks",
+  "author": "RAFAEL ZOUCAS <rafaelpzoucas@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "escpos",
+    "receipt",
+    "thermal-printer",
+    "pos",
+    "ticket",
+    "printer",
+    "node",
+    "typescript",
+    "builder",
+    "base64",
+    "receipt-builder",
+    "thermal-receipt",
+    "pos-printer",
+    "esc-pos",
+    "printer-driver",
+    "80mm-printer",
+    "58mm-printer",
+    "elgin",
+    "epson",
+    "bematech",
+    "daruma",
+    "point-of-sale",
+    "ticket-printer",
+    "receipt-generator"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelzoucas/escpos-ticket-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelzoucas/escpos-ticket-builder/issues"
+  },
+  "homepage": "https://github.com/rafaelzoucas/escpos-ticket-builder#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
